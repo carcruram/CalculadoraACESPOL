@@ -115,12 +115,19 @@ button:hover {
 }
 #alternatives {
     background-color: rgba(238, 238, 75, 0.647);
+    text-align: center;
 }
 
 #correct {
     background-color: lightgreen;
+    text-align: center;
 }
 
 #errors {
     background-color: lightcoral;
+    text-align: center;
+}
+
+#questions {
+    text-align: center;
 }
