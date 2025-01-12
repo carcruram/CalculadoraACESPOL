@@ -42,6 +42,14 @@ body::before {
     .container label, .container input {
         font-size: 0.75em; /* Reduce el tamaño de la fuente de las etiquetas e inputs */
     }
+    .form-row {
+        flex-direction: column; /* Cambia la dirección de los inputs a columna */
+    }
+
+    .form-row .form-group {
+        margin-right: 0;
+        margin-bottom: 10px; /* Añade margen inferior entre los inputs */
+    }
 }
 /*
 body::before {
