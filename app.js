@@ -32,7 +32,11 @@ document.addEventListener('DOMContentLoaded', () => {
             resultDiv.textContent = 'Por favor, ingrese valores válidos.';
         } else {
             const grade = ((A - E / (n - 1)) * 10) / P;
-            resultDiv.textContent = `NOTA FINAL: ${grade.toFixed(2)}`;
+            if(grade < 0) {
+                resultDiv.textContent = `NOTA FINAL: 0.00`;
+            } else{
+                resultDiv.textContent = `NOTA FINAL: ${grade.toFixed(2)}`;
+            }
         }
     }
 
