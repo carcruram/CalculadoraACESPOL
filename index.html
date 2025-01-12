@@ -12,17 +12,24 @@
         <img src="images/Logo.png" alt="Imagen de cabecera" class="header-image">
         <h1>Calculadora de Notas de Exámenes</h1>
         <form id="grade-form">
-            <label for="questions">Número de Preguntas:</label>
-            <input type="number" id="questions" required>
-
-            <label for="alternatives">Número de Alternativas:</label>
-            <input type="number" id="alternatives" required>
-
-            <label for="correct">Aciertos:</label>
-            <input type="number" id="correct" required>
-
-            <label for="errors">Errores:</label>
-            <input type="number" id="errors" required>
+            <div class="form-group centered">
+                <label for="questions">Número de Preguntas:</label>
+                <input type="number" id="questions" required>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="alternatives">Número de Alternativas:</label>
+                    <input type="number" id="alternatives" required>
+                </div>
+                <div class="form-group">
+                    <label for="correct">Aciertos:</label>
+                    <input type="number" id="correct" required>
+                </div>
+                <div class="form-group">
+                    <label for="errors">Errores:</label>
+                    <input type="number" id="errors" required>
+                </div>
+            </div>
         </form>
         <div id="result"></div>
     </div>

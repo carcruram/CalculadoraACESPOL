@@ -13,7 +13,9 @@
   ],
   "author": "Your Name",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "grade-calculator-app": "file:"
+  },
   "devDependencies": {
     "live-server": "^1.2.1"
   }
