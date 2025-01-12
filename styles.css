@@ -27,11 +27,11 @@ body::before {
 
 @media (max-width: 768px) {
     body::before {
-        background-size: 260%;
+        background-size: 240%;
         background-position: center;
     }
     .container {
-        max-width: 80%; /* Reduce el tamaño del contenedor */
+        max-width: 65%; /* Reduce el tamaño del contenedor */
         padding: 10px; /* Ajusta el padding si es necesario */
     }
 
