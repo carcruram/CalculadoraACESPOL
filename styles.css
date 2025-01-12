@@ -150,12 +150,14 @@ button:hover {
 }
 
 #correct {
-    background-color: lightgreen;
+    /*background-color: lightgreen;*/
+    background-color: #d4f8d4;
     text-align: center;
 }
 
 #errors {
-    background-color: lightcoral;
+    /*background-color: lightcoral;*/
+    background-color: #f8d4d4; /* Color rojo más claro */
     text-align: center;
 }
 
