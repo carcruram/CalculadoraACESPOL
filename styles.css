@@ -21,7 +21,7 @@ body::before {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    opacity: 0.4; /* Reduce la opacidad para que se vea menos cargado */
+    opacity: 0.4;
     z-index: -1;
 }
 /*
