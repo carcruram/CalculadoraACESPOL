@@ -113,27 +113,3 @@ button:hover {
     margin-top: 20px;
     text-align: center;
 }
-
-#alternatives,
-#correct,
-#errors {
-    text-align: center;
-}
-
-#questions {
-    text-align: center;
-    width: 50%;
-    margin: 0 auto;
-}
-
-#alternatives {
-    background-color: rgba(238, 238, 75, 0.647);
-}
-
-#correct {
-    background-color: lightgreen;
-}
-
-#errors {
-    background-color: lightcoral;
-}
