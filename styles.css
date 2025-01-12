@@ -27,8 +27,8 @@ body::before {
 
 @media (max-width: 768px) {
     body::before {
-        background-size: contain; /* Ajusta el tamaño de la imagen para que se contenga dentro del viewport */
-        background-position: center top; /* Ajusta la posición de la imagen */
+        background-size: cover;
+        background-position: center;
     }
 }
 /*
