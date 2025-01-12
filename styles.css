@@ -36,7 +36,7 @@ body::before {
     }
 
     .container h1 {
-        font-size: 1.35em; /* Reduce el tamaño de la fuente del título */
+        font-size: 1.30em; /* Reduce el tamaño de la fuente del título */
     }
 
     .container label, .container input {
