@@ -27,7 +27,7 @@ body::before {
 
 @media (max-width: 768px) {
     body::before {
-        background-size: 240%;
+        background-size: 250%;
         background-position: center;
     }
     .container {
@@ -161,4 +161,5 @@ button:hover {
 
 #questions {
     text-align: center;
+    width: 60%;
 }
