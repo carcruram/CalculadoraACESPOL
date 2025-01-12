@@ -31,16 +31,16 @@ body::before {
         background-position: center;
     }
     .container {
-        max-width: 65%; /* Reduce el tamaño del contenedor */
+        max-width: 60%; /* Reduce el tamaño del contenedor */
         padding: 10px; /* Ajusta el padding si es necesario */
     }
 
     .container h1 {
-        font-size: 1.5em; /* Reduce el tamaño de la fuente del título */
+        font-size: 1.4em; /* Reduce el tamaño de la fuente del título */
     }
 
     .container label, .container input {
-        font-size: 0.9em; /* Reduce el tamaño de la fuente de las etiquetas e inputs */
+        font-size: 0.8em; /* Reduce el tamaño de la fuente de las etiquetas e inputs */
     }
 }
 /*
@@ -132,7 +132,7 @@ button:hover {
 }
 
 .header-image {
-    width: 100%;
+    width: 90%;
     height: auto;
     display: block;
     margin: 0 auto;
