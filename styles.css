@@ -113,3 +113,14 @@ button:hover {
     margin-top: 20px;
     text-align: center;
 }
+#alternatives {
+    background-color: rgba(238, 238, 75, 0.647);
+}
+
+#correct {
+    background-color: lightgreen;
+}
+
+#errors {
+    background-color: lightcoral;
+}
