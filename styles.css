@@ -17,13 +17,24 @@ body::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('images/acespol.jpg');
+    background-image: url('images/acespolSilueta2.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    filter: blur(8px);
+    opacity: 0.4; /* Reduce la opacidad para que se vea menos cargado */
     z-index: -1;
 }
+/*
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #eae5de ;
+    z-index: -1;
+}*/
 
 .container {
     max-width: 600px;
