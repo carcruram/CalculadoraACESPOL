@@ -32,11 +32,11 @@ body::before {
     }
     .container {
         max-width: 50%; /* Reduce el tamaño del contenedor */
-        padding: 10px; /* Ajusta el padding si es necesario */
+        padding: 8px; /* Ajusta el padding si es necesario */
     }
 
     .container h1 {
-        font-size: 1.30em; /* Reduce el tamaño de la fuente del título */
+        font-size: 1.20em; /* Reduce el tamaño de la fuente del título */
     }
 
     .container label, .container input {
