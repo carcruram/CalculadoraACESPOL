@@ -31,16 +31,16 @@ body::before {
         background-position: center;
     }
     .container {
-        max-width: 60%; /* Reduce el tamaño del contenedor */
+        max-width: 50%; /* Reduce el tamaño del contenedor */
         padding: 10px; /* Ajusta el padding si es necesario */
     }
 
     .container h1 {
-        font-size: 1.4em; /* Reduce el tamaño de la fuente del título */
+        font-size: 1.35em; /* Reduce el tamaño de la fuente del título */
     }
 
     .container label, .container input {
-        font-size: 0.8em; /* Reduce el tamaño de la fuente de las etiquetas e inputs */
+        font-size: 0.75em; /* Reduce el tamaño de la fuente de las etiquetas e inputs */
     }
 }
 /*
