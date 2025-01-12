@@ -27,7 +27,7 @@ body::before {
 
 @media (max-width: 768px) {
     body::before {
-        background-size: cover;
+        background-size: 190%;
         background-position: center;
     }
 }
