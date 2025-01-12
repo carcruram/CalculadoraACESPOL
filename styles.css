@@ -32,7 +32,7 @@ body::before {
     }
     .container {
         max-width: 50%; /* Reduce el tamaño del contenedor */
-        padding: 8px; /* Ajusta el padding si es necesario */
+        padding: 7px; /* Ajusta el padding si es necesario */
     }
 
     .container h1 {
@@ -132,7 +132,7 @@ button:hover {
 }
 
 .header-image {
-    width: 90%;
+    width: 75%;
     height: auto;
     display: block;
     margin: 0 auto;
