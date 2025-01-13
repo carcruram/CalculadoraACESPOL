@@ -1,5 +1,6 @@
 body {
-    font-family: Arial, sans-serif;
+    /*font-family: Arial, sans-serif;*/
+    font-family: 'Roboto', sans-serif; /* Usar la fuente personalizada */
     margin: 0;
     padding: 0;
     display: flex;
@@ -99,10 +100,10 @@ label {
 
 input[type="number"] {
     width: 98%;
-    padding: 10px;
+    padding: 9px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 8px;
 }
 
 button {
@@ -111,7 +112,7 @@ button {
     background-color: #28a745;
     color: white;
     border: none;
-    border-radius: 4px;
+    border-radius: 8px;
     cursor: pointer;
     font-size: 16px;
 }
@@ -152,7 +153,7 @@ button:hover {
 
 #errors {
     /*background-color: lightcoral;*/
-    background-color: #f8d4d4; /* Color rojo más claro */
+    background-color: #f8d4d4;
     text-align: center;
 }
 
